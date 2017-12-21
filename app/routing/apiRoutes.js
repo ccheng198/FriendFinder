@@ -15,6 +15,3 @@ app.post("api/friends", function(request, result) {
 	result.json(newFriend);
 })
 
-app.listen(PORT, function() {
-  console.log("App listening on PORT " + PORT);
-});
